@@ -1,0 +1,14 @@
+GET http://localhost:3001/api/persons
+
+###
+DELETE http://localhost:3001/api/persons/605
+
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name":"dsd kulina",
+    "number":"45454545"
+}
